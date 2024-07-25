@@ -1,0 +1,20 @@
+@import "bootstrap";
+@import "bootstrap-icons";
+@import 'style.css';
+@import "masthead.css";
+@import 'navbar.css';
+@import 'scrollbar.css';
+@import 'article.css';
+@import 'pagination.css';
+@import 'search.css';
+@import 'userDashboardCard.css';
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+@import 'card.css';
+@import 'social.css';
+@import 'carousel.css';
+@import 'offCanvas.css';
+
+@import 'aos/dist/aos.css';
+
+
+ 

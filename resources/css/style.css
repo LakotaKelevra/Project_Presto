@@ -1,0 +1,204 @@
+/* :root {
+    --main: rgb(241, 250, 238);
+    --sec: #000000;
+    --ter: #3A0CA3;
+    --quar: rgb(245, 166, 91);
+} */
+
+:root {
+    --main: #f1faee;
+    --sec: #013036;
+    --quar: #017582;
+    --ter: #02ABBE;
+    --shadow: rgba(1, 73, 81, 0.5);
+}
+
+body {
+    background-color: var(--main);
+    color: var(--sec);
+    overflow-x: auto;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+.btn-quar {
+    color: var(--quar);
+    border: 1px solid var(--quar);
+}
+
+.btn-quar:hover {
+    background-color: var(--quar);
+    color: var(--main);
+}
+
+.h1 {
+    color: var(--ter);
+    font-weight: bold;
+    /* text shadow */
+    text-shadow: 0px 4px 7px var(--shadow);
+
+    /* From https://css.glass */
+    background: rgba(1, 117, 130, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px var(--shadow);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    padding: 30px;
+}
+
+h1{
+    color: var(--ter);
+    font-weight: bold;
+    /* text-shadow: 0px 4px 7px var(--shadow); */
+}
+
+h2,
+h3,
+.card-title {
+    color: var(--quar);
+    font-weight: bold;
+}
+
+.article-text{
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+label {
+    color: var(--quar);
+}
+
+.badge ,.badge>a {
+    background-color: var(--ter);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: var(--main);
+    z-index: 1;
+}
+
+@media only screen and (max-width: 450px) {
+    .custom-margin-top {
+        margin-top: 4rem;   
+}
+.custom-margin-top-form{
+        margin-top: 7rem; 
+}
+}
+
+@media screen and (min-width: 576px){
+    .custom-margin-top {
+        margin-top: 8rem;   
+}
+.custom-margin-top-form{
+        margin-top: 12rem;
+}
+}
+
+
+
+.show-path>span>a,
+.show-path {
+    text-decoration: none;
+    color: var(--quar);
+    font-weight: bold;
+}
+
+.bg-quar {
+    background-color: var(--quar);
+    color: var(--main);
+}
+
+.bg-ter{
+    background-color: var(--ter);
+    color: var(--main);
+}
+
+.bg-sec{
+    background-color: var(--sec);
+    color: var(--main);
+}
+
+.text-quar{
+    color: var(--quar);
+}
+
+#logo{
+    width: 5rem;
+    margin: 0;
+}
+
+.img-preview{
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-main{
+    background-color: var(--main);
+}
+
+.img-carousel{
+    width: 1000px;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.disabled-link {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .teamPicture{
+    width: 200px;
+    height: 200px;
+    border: 2px var(--quar) solid;
+    border-radius: 50%;
+
+  }
+
+  #cartButton{
+    top: 3rem;
+  }
+
+
+  #switch{
+    position: absolute;
+    left: 6rem;
+    background-color: var(--quar);
+    border: 2px var(--quar) solid;
+    box-shadow: none;
+}
+
+  #griglia{
+    position: absolute;
+    left: 0rem;
+  }
+
+  #elenco{
+    position: absolute;
+    left: 6.5rem;
+  }
+
+  /* @media screen and (min-width: 576px){
+      #reasonTextArea{
+        width: fit-content;
+        position: relative;
+        left: initial;
+      } 
+  }
+
+  @media screen and (max-width: 576px){
+    #reasonTextArea{
+      width: fit-content;
+      position: relative;
+      left: -1.5rem;
+    } 
+} */
